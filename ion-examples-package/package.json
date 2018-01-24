@@ -1,0 +1,31 @@
+{
+  "name": "@gnucoop/ion-extra-examples",
+  "version": "0.1.0",
+  "description": "Ion-Extra Examples",
+  "main": "./bundles/ion-extra-examples.umd.js",
+  "module": "./esm5/ion-extra-examples.es5.js",
+  "es2015": "./esm2015/ion-extra-examples.js",
+  "typings": "./ion-extra-examples.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gnucoop/ng-extra.git"
+  },
+  "keywords": [
+    "angular",
+    "extra",
+    "ionic"
+  ],
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/gnucoop/ng-extra/issues"
+  },
+  "homepage": "https://github.com/angular/ng-extra#readme",
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "ionic-angular": "undefined"
+  },
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}
